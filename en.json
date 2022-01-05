@@ -1,0 +1,84 @@
+{
+    "generic_fills": [
+        "the",
+        "this",
+        "a"
+    ],
+    "commands": {
+        "go": {
+            "action": [
+                "go",
+                "goto",
+                "walk",
+                "run"
+            ],
+            "filler": [
+                "to"
+            ],
+            "directions": {
+                "n": 0,
+                "north": 0,
+                "ne": 2,
+                "northeast": 2,
+                "e": 4,
+                "east": 4,
+                "se": 6,
+                "southeast": 6,
+                "s": 8,
+                "south": 8,
+                "sw": 10,
+                "southwwest": 10,
+                "w": 12,
+                "west": 12,
+                "nw": 14,
+                "northwest": 14,
+                "u": 1,
+                "up": 1,
+                "d": 7,
+                "down": 7
+            }
+        },
+        "look": {
+            "action": [
+                "look",
+                "examine",
+                "view",
+                "watch"
+            ],
+            "filler": [
+                "to",
+                "at",
+                "on",
+                "through"
+            ]
+        },
+        "take": {
+            "action": [
+                "take",
+                "collect"
+            ],
+            "filler": [
+                "up"
+            ]
+        },
+        "drop": {
+            "action": [
+                "drop"
+            ],
+            "filler": []
+        },
+        "inventory": {
+            "action": [
+                "inventory",
+                "i",
+                "pocket"
+            ],
+            "filler": []
+        }
+    },
+    "all": [
+        "all",
+        "everything"
+    ],
+    "no way": "There is no way in this direction"
+}

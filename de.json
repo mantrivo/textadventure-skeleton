@@ -1,0 +1,126 @@
+{
+    "generic_fills": [
+        "der",
+        "die",
+        "das",
+        "ein",
+        "eine"
+    ],
+    "commands": {
+        "go": {
+            "action": [
+                "geh",
+                "gehe",
+                "lauf",
+                "laufe",
+                "renn",
+                "renne"
+            ],
+            "filler": [
+                "nach",
+                "zu",
+                "ins",
+                "richtung"
+            ],
+            "directions": {
+                "n": 0,
+                "nord": 0,
+                "norden": 0,
+                "ne": 2,
+                "nordost": 2,
+                "nordosten": 2,
+                "o": 4,
+                "ost": 4,
+                "osten": 4,
+                "so": 6,
+                "südost": 6,
+                "südosten": 6,
+                "s": 8,
+                "süd": 8,
+                "süden": 8,
+                "sw": 10,
+                "südwest": 10,
+                "südwesten": 10,
+                "w": 12,
+                "west": 12,
+                "westen": 12,
+                "nw": 14,
+                "nodwest": 14,
+                "nodwesten": 14,
+                "h": 1,
+                "hoch": 1,
+                "oben": 1,
+                "rauf": 1,
+                "hinauf": 1,
+                "r": 7,
+                "runter": 7,
+                "unten": 7,
+                "hinunter": 7
+            }
+        },
+        "look": {
+            "action": [
+                "schau",
+                "schaue",
+                "betrachte",
+                "untersuche"
+            ],
+            "filler": [
+                "an",
+                "auf",
+                "nach"
+            ]
+        },
+        "take": {
+            "action": [
+                "nimm",
+                "nehme"
+            ],
+            "action_regex": [
+                "stecke (.+) ein",
+                "hebe (.+) auf",
+                "(.+) einsammeln",
+                "(.+) aufnehmen"
+            ],
+            "filler": [
+                "auf",
+                "mit"
+            ]
+        },
+        "drop": {
+            "action": [
+                "wegwerfen",
+                "entsorge",
+                "entferne",
+                "drop"
+            ],
+            "action_regex": [
+                "lass (.+) fallen",
+                "wirf (.+) weg",
+                "leg (.+) weg",
+                "(.+) wegwerfen",
+                "(.+) entfernen"
+            ],
+            "filler": []
+        },
+        "inventory": {
+            "action": [
+                "inventar",
+                "i",
+                "tasche",
+                "rucksack"
+            ],
+            "filler": []
+        }
+    },
+    "Where?": "Wohin?",
+    "What?": "Was?",
+    "no way": "Du kannst nicht in diese Richtung gehen",
+    "Object not found": "Objekt nicht gefunden",
+    "There is": "Hier liegt",
+    "You have nothing in your pockets.": "Du hast nichts in deiner Tasche.",
+    "You have the following in your pockets:": "Du hast folgendes in deiner Tasche:",
+    "all": [
+        "alles"
+    ]
+}
